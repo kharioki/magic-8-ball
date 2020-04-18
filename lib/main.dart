@@ -4,18 +4,18 @@ void main() {
   runApp(
     MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.teal,
+        backgroundColor: Colors.blue,
         appBar: AppBar(
-          title: Text('Magic-8-Ball'),
-          backgroundColor: Colors.teal.shade600,
+          title: Text('Ask Me Anything'),
+          backgroundColor: Colors.blue.shade900,
         ),
-        body: Magic8Ball(),
+        body: BallPage(),
       ),
     ),
   );
 }
 
-class Magic8Ball extends StatelessWidget {
+class BallPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container();
